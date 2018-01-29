@@ -71,6 +71,12 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.strimzi</groupId>
+            <artifactId>test-common</artifactId>
+            <version>${pom.version}</version>
+            <scope>test</scope>
+        </dependency>
         <!--<dependency>
             <groupId>io.fabric8</groupId>
             <artifactId>kubernetes-server-mock</artifactId>
